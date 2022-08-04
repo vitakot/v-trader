@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ATSWDGPlots</class>
+ <widget class="QWidget" name="ATSWDGPlots">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1587</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayoutResolution"/>
+   </item>
+   <item>
+    <widget class="ATSWdgPlotMain" name="mainPlot" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 185, 110);</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ATSWdgPlotMain</class>
+   <extends>QWidget</extends>
+   <header location="global">ui/ats_wdg_plot_main.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
